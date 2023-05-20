@@ -19,16 +19,16 @@
     width: 100%;
     margin: 0 auto;
     
-    &_section{
-        padding: 170px;
-    
-    }
-    
     &_fondo {
         background-image: url(../assets/images/patenbrillo.png);
         background-repeat: no-repeat;
         background-position: center center;
         
+    }
+
+    &_section{
+        padding: 170px;
+    
     }
 
     &_tituloUno{
@@ -94,14 +94,13 @@
     padding: 103px;
     margin: 201px;
     text-align: center;
-    
-    &_form{
-        padding: 103px;
-        margin: 201px;
-    }
-    
+        
 }
 
+.main_form{
+    padding: 103px;
+    margin: 201px;
+}
 
 
 
