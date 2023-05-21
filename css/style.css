@@ -52,8 +52,8 @@
 .section_img {
   width: 47%;
   height: auto;
-  margin-left: 210px;
-  margin-top: 146px;
+  margin-left: 135px;
+  margin-top: 160px;
   border-radius: 20px;
   transition: 0.3s ease-in-out;
 }
@@ -62,8 +62,8 @@
   transform: scale(1.4);
 }
 .section_p {
-  margin-left: 211px;
-  margin-top: 17px;
+  margin-left: 140px;
+  margin-top: 75px;
 }
 
 .main_pItalic {
@@ -80,6 +80,11 @@
 .main_form {
   padding: 103px;
   margin: 201px;
+}
+
+.main_pItalic {
+  font-size: 22px;
+  font-style: italic;
 }
 
 .footer {
@@ -130,21 +135,47 @@
   .img_logo {
     width: 10%;
   }
-  .section_grid {
+}
+@media (max-width: 490px) {
+  main {
+    padding: 34px;
+  }
+  main .section {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 15px;
   }
-  .footer_row {
+  main .section_img {
+    width: 70%;
+    height: auto;
+    margin-left: 99px;
+    margin-top: 2px;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  main .section_p {
+    padding: 103px;
+    margin: -64px;
     text-align: center;
   }
-  .footer_links {
-    width: 100%;
-    margin-bottom: 10%;
+}
+@media (max-width: 991px) {
+  .img_logo {
+    width: 10%;
   }
-  .img_productos {
+  main {
+    padding: 60px;
+  }
+  main .section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+  main .section_img {
     width: 47%;
     height: auto;
     margin-left: 124px;
@@ -152,30 +183,39 @@
     border-radius: 22px;
     transition: 0.3s ease-in-out;
   }
-  .p_producto {
+  main .section_p {
     margin-left: 126px;
     margin-top: 9px;
   }
 }
-@media (max-width: 490px) {
-  .section_grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-  }
-  .p_contacto {
-    padding: 103px;
-    margin: -64px;
-    text-align: center;
-  }
+@media (max-width: 991px) {
   .main_section {
-    padding: 56px;
+    padding: 10px;
+    margin: 43;
+  }
+}
+@media (max-width: 991px) {
+  .main_contacto {
+    padding: 3px;
+    margin: 70px;
   }
   .main_form {
-    padding: 31px;
-    margin: 74px;
+    padding: 0px;
+    margin: 105px;
+  }
+}
+@media (max-width: 991px) {
+  .main_section {
+    padding: 82px;
+  }
+}
+@media (max-width: 991px) {
+  .footer_row {
+    text-align: center;
+  }
+  .footer_links {
+    width: 100%;
+    margin-bottom: 10%;
   }
 }
 
