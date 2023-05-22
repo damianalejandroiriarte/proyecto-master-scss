@@ -1,7 +1,12 @@
 @media(max-width:490px){
+
+    .img_logo{
+        width: 10%;
     
+    }
+
     main{
-        padding: 34px;
+        padding: 0px;
 
         .section{
             display: grid;
@@ -9,25 +14,20 @@
             grid-template-rows: repeat(6, 1fr);
             grid-column-gap: 15px;
             grid-row-gap: 15px;
-    
+
             &_img{
-                width: 70%;
+                width: 47%;
                 height: auto;
-                margin-left: 99px;
-                margin-top: 2px;
+                margin-left: 124px;
+                margin-top: 88px;
                 border-radius: 22px;
                 transition: 0.3s ease-in-out;
             }
-    
+
             &_p{
-                padding: 103px;
-                margin: -64px;
-                text-align: center;
-            
+                margin-left: 100px;
+                margin-top: 9px;
             }
-        
-    
         }
     }
-
 }
